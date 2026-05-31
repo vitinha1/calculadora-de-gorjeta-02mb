@@ -132,7 +132,6 @@ main{
 
 .pessoas #erro-div{
     outline: 2px solid var(--danger);
-
 }
 
 .pessoas #erro {
@@ -220,8 +219,6 @@ main{
         width: 100%;
     }
 
-   
-
     .gorjeta div {
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -237,6 +234,4 @@ main{
     .resultados div > strong{
         font-size: 3rem;
     }
-
-
 }
