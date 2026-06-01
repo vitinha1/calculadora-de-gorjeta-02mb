@@ -21,5 +21,16 @@ const contaInput = document.querySelector("#conta")
         } else {
             paragrafoErro.style.display = "none"
             divErro.setAttribute("id", "")
+            pessoas = Number(evento.target.value)
         }
     }
+
+const botoesGorjeta = document.querySelectorAll(".gorjeta input[type='button']")
+botoesGorjeta.forEach(botao => {
+    botao.addEventListener("click", receberPorcentagem)
+})
+
+function receberPorcentagem(evento){
+    console.log(evento.target.value)
+
+}
